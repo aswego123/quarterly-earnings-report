@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quarterly Earnings — Interactive RevealJS</title>
+
+  <!-- Reveal.js (CDN) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/black.css" id="theme">
+
+  <!-- Highlight.js for code highlighting -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.8.0/styles/default.min.css">
+
+  <style>
+    /* small presentational tweaks */
+    .email { font-size: 0.9rem; opacity: 0.85; }
+    .footer { position: absolute; right: 1rem; bottom: 0.6rem; font-size: 0.8rem; color: #ddd; }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- Title slide -->
+      <section>
+        <h1>Quarterly Earnings Report</h1>
+        <h3>Modern interactive deliverable</h3>
+        <p class="email">Contact: 24ds1000070@ds.study.iitm.ac.in</p>
+        <p class="footer">Prepared by: Technical Consulting — Q<sub>n</sub> FY</p>
+        <aside class="notes">Open with 2–3 sentence headline: revenue vs estimates, key drivers, ask for questions at the end.</aside>
+      </section>
+
+      <!-- Markdown slide (demonstrates reveal's markdown plugin) -->
+      <section data-markdown>
+        <script type="text/template">
+## Executive Summary (Markdown)
+
+- **Revenue:** $X million (▲ Y% q/q)
+- **Net Income:** $Z million (▲/▼ compared to prior)
+- **Key drivers:** product mix, FX, one-offs
+
+> Takeaway: Focus on margin expansion and high-growth segments.
+
+*Use the arrow keys to proceed.*
+        </script>
+        <aside class="notes">Read the bullets slowly — emphasize the top-line and the one-sentence takeaway.</aside>
+      </section>
+
+      <!-- Slide with fragments (animated elements) -->
+      <section>
+        <h2>Highlights</h2>
+        <ul>
+          <li class="fragment">Revenue growth driven by digital channels</li>
+          <li class="fragment">Cost discipline improving gross margin</li>
+          <li class="fragment">Investments in risk & compliance being capitalized</li>
+        </ul>
+        <aside class="notes">Each fragment will appear on click — use to narrate three distinct points.</aside>
+      </section>
+
+      <!-- Code sample with syntax highlighting -->
+      <section>
+        <h2>Example: Simple ROI Calculation (Python)</h2>
+        <pre><code class="language-python">def roi(gains, cost):
+    """Return return-on-investment as a percentage."""
+    return (gains - cost) / cost * 100
+
+# Example
+print(f"ROI: {roi(120000, 80000):.2f}%")
+</code></pre>
+        <aside class="notes">Quickly explain inputs and that this is a toy example used for scenario testing.</aside>
+      </section>
+
+      <!-- Slide with math (MathJax) -->
+      <section>
+        <h2>Financial Formula — Net Present Value (NPV)</h2>
+        <p>We use the standard NPV formula:</p>
+        <p>\[\mathrm{NPV} = \sum_{t=0}^{T} \frac{C_t}{(1 + r)^t}\]</p>
+        <p class="fragment">Where: <em>\(C_t\)</em> are cash flows, <em>\(r\)</em> is the discount rate.</p>
+        <aside class="notes">Point to the discount rate sensitivity and reference scenario analysis in the appendix.</aside>
+      </section>
+
+      <!-- Slide with an embedded small table (HTML) -->
+      <section>
+        <h2>Quarter Snapshot</h2>
+        <table>
+          <thead><tr><th>Metric</th><th>This Quarter</th><th>Prior Quarter</th></tr></thead>
+          <tbody>
+            <tr><td>Revenue</td><td>$120M</td><td>$110M</td></tr>
+            <tr><td>Gross Margin</td><td>45%</td><td>43%</td></tr>
+            <tr><td>Net Income</td><td>$18M</td><td>$15M</td></tr>
+          </tbody>
+        </table>
+        <aside class="notes">Highlight the margin improvements and call out any exceptional items.</aside>
+      </section>
+
+      <!-- Fragmented chart placeholder -->
+      <section>
+        <h2>Trend: Revenue by Segment</h2>
+        <p class="fragment">(Interactive chart would be embedded here in a real build — use D3/Chart.js)</p>
+        <p class="fragment">Segment A: 55% • Segment B: 30% • Other: 15%</p>
+        <aside class="notes">Describe segments and growth drivers; switch to appendix for deep-dive numbers.</aside>
+      </section>
+
+      <!-- Contact / Closing slide -->
+      <section>
+        <h2>Contact & Next Steps</h2>
+        <p>For follow-ups, email: <strong>24ds1000070@ds.study.iitm.ac.in</strong></p>
+        <ol>
+          <li class="fragment">Share detailed financial model (by request)</li>
+          <li class="fragment">Schedule a stakeholder Q&A</li>
+        </ol>
+        <aside class="notes">Wrap up with a clear ask and available support items.</aside>
+      </section>
+
+    </div>
+  </div>
+
+  <!-- Reveal.js and plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/markdown/markdown.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/math/math.js"></script>
+
+  <!-- Highlight.js core (for syntax highlighting) -->
+  <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.8.0/lib/highlight.js"></script>
+
+  <!-- MathJax (v3) configuration for Reveal's math plugin -->
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$','$'], ['\\(','\\)']] },
+      svg: {fontCache: 'global'}
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+  <script>
+    // Initialize Reveal
+    Reveal.initialize({
+      hash: true,
+      plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax3 ],
+      slideNumber: true
+    });
+
+    // Ensure Highlight.js also highlights any code blocks
+    document.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelectorAll('pre code').forEach((block) => {
+        try { hljs.highlightElement(block); } catch(e) { console.warn(e); }
+      });
+    });
+  </script>
+</body>
+</html>
