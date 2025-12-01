@@ -31,6 +31,7 @@ This documentation is built using **Marp**.
 ---
 
 # Math Example
+
 \[
 T(n) = O(n \log n)
 \]
