@@ -9,8 +9,3 @@ Code samples with syntax highlighting
 Mathematical equations (e.g., financial formulas)
 Speaker notes for presentation guidance
 The presentation should be published on GitHub Pages.
-
-What is the GitHub Pages URL? (e.g., https://[USER].github.io/[REPO]/)
-To refresh cached content, add ?v=1, ?v=2, etc. to the URL.
-
-please help me complete the assignment question 1 quickly and explain along as well
