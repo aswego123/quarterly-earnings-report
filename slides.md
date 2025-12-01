@@ -1,11 +1,8 @@
 ---
 marp: true
-title: "Product Documentation"
+title: Product Documentation
 paginate: true
 theme: default
-class: lead
-style: |
-  section { font-family: Arial, sans-serif; }
 ---
 
 # Product Documentation
