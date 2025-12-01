@@ -2,233 +2,148 @@
 marp: true
 theme: default
 paginate: true
-backgroundColor: #ffffff
 author: 24ds1000070@ds.study.iitm.ac.in
 ---
 
-<!-- Custom theme styling -->
 <style>
 section {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1 {
-  color: #2c3e50;
-  border-bottom: 3px solid #3498db;
-  padding-bottom: 10px;
-}
-h2 {
-  color: #34495e;
+  color: #1a5490;
+  border-bottom: 4px solid #2196F3;
+  padding-bottom: 15px;
 }
 </style>
 
 ---
 
 # Quarterly Earnings Report
-## Q3 2024 Financial Performance
+## Q3 2024 Performance Analysis
 
-**Presented by:** Technical Documentation Team
-**Email:** 24ds1000070@ds.study.iitm.ac.in
+**Author:** 24ds1000070@ds.study.iitm.ac.in
 **Date:** December 2024
 
 ---
 
-![bg right:40% 80%](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800)
+![bg right:40% 90%](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800)
 
 # Executive Summary
 
-Our Q3 2024 results demonstrate strong growth across all key metrics:
+Strong performance across all business units:
 
-- Revenue up 23% YoY
-- Customer acquisition increased by 15%
+- Revenue increased 23% year-over-year
+- Customer base grew by 15%
 - Operating margin improved to 28%
 
 ---
 
 # Financial Highlights
 
-| Metric | Q3 2024 | Q2 2024 | Growth |
+| Metric | Q3 2024 | Q2 2024 | Change |
 |--------|---------|---------|--------|
 | Revenue | $45.2M | $38.1M | +18.6% |
 | Net Income | $12.6M | $10.2M | +23.5% |
 | EBITDA | $15.8M | $13.1M | +20.6% |
-
-**Key Achievement:** Exceeded revenue targets by 12%
+| EPS | $2.45 | $1.98 | +23.7% |
 
 ---
 
-# Algorithmic Complexity Analysis
+# Algorithm Performance Optimization
 
-Our platform optimization efforts have yielded significant improvements:
+Our engineering team achieved significant improvements:
 
-**Time Complexity Improvements:**
-
+**Time Complexity Reductions:**
 - Search algorithm: $O(n^2) \rightarrow O(n \log n)$
-- Data indexing: $O(n) \rightarrow O(\log n)$
-- Query processing: $\Theta(n) \rightarrow \Theta(\sqrt{n})$
+- Database queries: $O(n) \rightarrow O(\log n)$
+- Data processing: $\Theta(n) \rightarrow \Theta(\sqrt{n})$
 
-**Space-Time Tradeoff:**
-$$
-T(n) = O(n \log n) \text{ with } S(n) = O(n)
-$$
+**Result:** 40% reduction in processing time
 
 ---
 
-# Product Development Metrics
+# Growth Model Analysis
 
-**Sprint Velocity:** 45 story points/sprint
-
-**Code Quality Metrics:**
-- Test Coverage: 87%
-- Code Review Rate: 100%
-- Bug Density: 0.8 per KLOC
-
-**Mathematical Model for Defect Prediction:**
-$$
-D(t) = D_0 \cdot e^{-\lambda t}
-$$
-
-Where $D_0$ is initial defects and $\lambda$ is the resolution rate
-
----
-
-# Customer Growth Analysis
-
-Our customer base has grown exponentially following the model:
+Customer acquisition follows exponential growth:
 
 $$
-C(t) = C_0 \cdot (1 + r)^t
+C(t) = C_0 \cdot e^{rt}
 $$
 
+Where:
 - $C_0 = 10,000$ (initial customers)
-- $r = 0.15$ (monthly growth rate)
-- $t$ = months since launch
+- $r = 0.12$ (monthly growth rate)
+- $t$ = time in months
 
-**Result:** 34,500+ active customers
+**Current customer base:** 34,500+ active users
 
 ---
 
-# Technical Infrastructure
+# Technical Performance Metrics
 
-**System Performance:**
-- API Response Time: $\mu = 45ms$, $\sigma = 12ms$
-- Uptime: 99.97%
-- Request Throughput: 50,000 req/sec
+**System Statistics:**
+- Average API response time: $\mu = 42ms$
+- Standard deviation: $\sigma = 8ms$
+- System uptime: 99.98%
+- Throughput capacity: 75,000 requests/second
 
-**Scaling Formula:**
+**Scalability Formula:**
 $$
-\text{Capacity} = \frac{N \cdot P}{L} \cdot E
+\text{Capacity} = \frac{N \cdot P \cdot E}{L}
 $$
 
-Where $N$ = servers, $P$ = processing power, $L$ = latency, $E$ = efficiency
-
 ---
 
-![bg](https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200)
+# Revenue Projection Model
 
-# Strategic Initiatives
+Our forecasting model uses:
 
----
-
-# Q4 Roadmap
-
-**Priority Projects:**
-1. AI/ML Integration
-   - Algorithm complexity: $O(n \log n)$ for training
-   - Inference time: $< 100ms$
-
-2. Platform Expansion
-   - Target: 3 new markets
-   - Expected ROI: $R = \frac{G - C}{C} \times 100\%$
-
-3. Security Enhancements
-   - Encryption: AES-256
-   - Hash function: $H(x) = \text{SHA-3}(x)$
-
----
-
-# Risk Analysis
-
-**Probability of Success Model:**
 $$
-P(S) = 1 - \prod_{i=1}^{n}(1 - p_i)
+R(t) = R_0 \cdot (1 + g)^t + S(t)
+$$
+
+Where:
+- $R_0$ = base revenue
+- $g$ = growth rate (0.18)
+- $S(t)$ = seasonal adjustment factor
+
+**Q4 Target:** $52M (+15% QoQ)
+
+---
+
+# Risk Assessment
+
+**Probability Analysis:**
+
+$$
+P(\text{success}) = 1 - \prod_{i=1}^{n}(1 - p_i)
 $$
 
 **Key Risk Factors:**
-- Market volatility: 15%
-- Technical debt: $O(n^2)$ complexity in legacy systems
-- Competition: Moderate
-
-**Mitigation Strategy:** Diversification with $\sigma_{portfolio} < \sigma_{individual}$
-
----
-
-# Team Performance
-
-**Productivity Metrics:**
-
-$$
-\text{Velocity} = \frac{\sum \text{Story Points}}{\text{Sprints}} = 45 \text{ pts/sprint}
-$$
-
-**Team Composition:**
-- Engineers: 24
-- Product: 6
-- Design: 4
-
-**Efficiency:** $E = \frac{\text{Output}}{\text{Input}} = 1.85$
-
----
-
-# Financial Projections
-
-**Revenue Forecast Model:**
-$$
-R(t) = R_0 \cdot e^{rt} + \epsilon
-$$
-
-**Q4 2024 Targets:**
-- Revenue: $52M (+15% QoQ)
-- Profit Margin: 30%
-- Customer LTV: $\$850$
-
-**Break-even Analysis:** $Q = \frac{FC}{P - VC}$ where we're 250% above break-even
+- Market volatility: 12%
+- Technical debt: $O(n^2)$ complexity in legacy code
+- Competition pressure: Moderate
 
 ---
 
 # Conclusion
 
-**Key Takeaways:**
-- Strong Q3 performance across all metrics
-- Technical infrastructure scaled efficiently: $O(\log n)$
-- On track to meet annual targets
+**Key Achievements:**
+- Exceeded revenue targets by 12%
+- Improved algorithmic efficiency to $O(n \log n)$
+- Strong market position maintained
 
-**Next Quarter Focus:**
-- Innovation with complexity target: $O(n \log n)$
+**Q4 Focus Areas:**
+- Product innovation
 - Market expansion
-- Customer satisfaction: Target NPS > 70
+- Customer satisfaction (target NPS > 75)
 
 ---
 
-# Thank You
+# Questions?
 
-## Questions?
-
-**Contact:**
+**Contact Information:**
 📧 24ds1000070@ds.study.iitm.ac.in
-🌐 github.com/aswego123/quarterly-earnings-report
+📊 GitHub: /aswego123/quarterly-earnings-report
 
----
-
-<!-- This is the last slide -->
-# Appendix
-
-**Additional Resources:**
-- Technical Documentation: `/docs`
-- API Reference: `/api-docs`
-- Source Code: GitHub repository
-
-**Complexity Reference:**
-- $O(1)$ - Constant time
-- $O(\log n)$ - Logarithmic
-- $O(n)$ - Linear
-- $O(n \log n)$ - Linearithmic
+Thank you for your attention!
