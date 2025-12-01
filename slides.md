@@ -3,6 +3,7 @@ marp: true
 title: Product Documentation
 paginate: true
 theme: default
+email: 24ds1000070@ds.study.iitm.ac.in
 ---
 
 # Product Documentation
